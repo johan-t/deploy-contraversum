@@ -1,0 +1,16 @@
+name = "helix-prod-worker"
+main = "src/index.mjs"
+workers_dev = true
+# TODO: set route
+route = "*.mydomain.com/*"
+# TODO: set Account ID
+account_id = "<account id>"
+
+compatibility_date = "2022-04-08"
+
+[build]
+command = "npm install"
+
+[vars]
+# TODO: set origin host name
+ORIGIN_HOSTNAME = "main--mysite--hlxsites.hlx.live"
