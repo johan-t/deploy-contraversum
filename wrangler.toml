@@ -2,9 +2,11 @@ name = "helix-prod-worker"
 main = "src/index.mjs"
 workers_dev = true
 # TODO: set route
-route = "*.mydomain.com/*"
+route = "*.contraversum.org/*"
 # TODO: set Account ID
-account_id = "<account id>"
+account_id = "5c548beda52cbe9e9ae0f924ff109b30"
+zone_id = "3d4b38ffa16d2714e2ff65ab05f4f679"
+
 
 compatibility_date = "2022-04-08"
 
@@ -13,4 +15,4 @@ command = "npm install"
 
 [vars]
 # TODO: set origin host name
-ORIGIN_HOSTNAME = "main--mysite--hlxsites.hlx.live"
+ORIGIN_HOSTNAME = "https://main--contraversumlandingpage--contraversum.hlx.live/"
